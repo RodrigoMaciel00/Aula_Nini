@@ -1,0 +1,14 @@
+# Exercício 2
+def ordenar_vetor(vetor, chave='crescente'):
+    if chave == 'crescente':
+        return sorted(vetor)
+    elif chave == 'decrescente':
+        return sorted(vetor, reverse=True)
+    else:
+        return "Chave inválida. Use 'crescente' ou 'decrescente'."
+
+# Exemplo de uso:
+vetor = [64, 25, 12, 22, 11]
+print("Vetor original:", vetor)
+print("Vetor ordenado (crescente):", ordenar_vetor(vetor))
+print("Vetor ordenado (decrescente):", ordenar_vetor(vetor, chave='decrescente'))
