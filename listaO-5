@@ -1,0 +1,9 @@
+# Exercício 5
+def remover_duplicatas(vetor):
+    vetor_sem_duplicatas = list(set(vetor))
+    return vetor_sem_duplicatas
+
+# Exemplo de uso:
+vetor = [5, 2, 8, 2, 3, 4, 6, 5]
+print("Vetor original:", vetor)
+print("Vetor sem duplicatas:", remover_duplicatas(vetor))
