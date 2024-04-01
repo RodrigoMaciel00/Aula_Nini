@@ -1,0 +1,12 @@
+class Produto:
+    def __init__(self, nome, preco, quantidade):
+        self.nome = nome
+        self.preco = preco
+        self.quantidade = quantidade
+    
+    def calcular_total(self):
+        return self.preco * self.quantidade
+
+# Exemplo de uso:
+produto = Produto("Camisa", 30, 2)
+print("Valor total do produto:", produto.calcular_total())
