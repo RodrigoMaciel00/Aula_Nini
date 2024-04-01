@@ -1,0 +1,4 @@
+# Exercício 4
+lista_numeros = [10, 20, 30, 40, 50]
+media_numeros = sum(lista_numeros) / len(lista_numeros)
+print("A média dos números da lista é:", media_numeros)
