@@ -1,0 +1,15 @@
+class Funcionario:
+    def __init__(self, nome, salario, cargo):
+        self.nome = nome
+        self.salario = salario
+        self.cargo = cargo
+    
+    def aumentar_salario(self, percentual_aumento):
+        aumento = self.salario * percentual_aumento / 100
+        self.salario += aumento
+
+# Exemplo de uso:
+funcionario = Funcionario("Ana", 3000, "Analista")
+print("Salário antes do aumento:", funcionario.salario)
+funcionario.aumentar_salario(10)  # Aumento de 10%
+print("Salário após aumento:", funcionario.salario)
