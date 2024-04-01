@@ -1,0 +1,4 @@
+# Exercício 6
+lista_palavras = ["python", "programação", "linguagem", "desenvolvimento"]
+mais_longa = max(lista_palavras, key=len)
+print("A palavra mais longa da lista é:", mais_longa)
