@@ -1,0 +1,4 @@
+# Exercício 5
+lista_palavras = ["amor", "abraço", "casa", "abelha", "banana"]
+quantidade_palavras_com_a = sum(1 for palavra in lista_palavras if palavra.startswith('a') or palavra.startswith('A'))
+print("A quantidade de palavras que começam com a letra 'A' é:", quantidade_palavras_com_a)
