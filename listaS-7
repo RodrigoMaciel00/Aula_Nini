@@ -1,0 +1,4 @@
+# Exercício 7
+lista_numeros = [10, 20, 30, 40, 50]
+numeros_pares = [numero for numero in lista_numeros if numero % 2 == 0]
+print("Números pares na lista:", numeros_pares)
