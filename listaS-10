@@ -1,0 +1,4 @@
+# Exercício 10
+lista_numeros = [1, 2, 3, 4, 2, 3, 5, 6, 1]
+lista_sem_repetidos = list(set(lista_numeros))
+print("Lista sem números repetidos:", lista_sem_repetidos)
