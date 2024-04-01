@@ -1,0 +1,19 @@
+# Exercício 3
+def encontrar_maximo(vetor):
+    maximo = vetor[0]
+    for numero in vetor:
+        if numero > maximo:
+            maximo = numero
+    return maximo
+
+def encontrar_minimo(vetor):
+    minimo = vetor[0]
+    for numero in vetor:
+        if numero < minimo:
+            minimo = numero
+    return minimo
+
+# Exemplo de uso:
+vetor = [64, 25, 12, 22, 11]
+print("Elemento máximo do vetor:", encontrar_maximo(vetor))
+print("Elemento mínimo do vetor:", encontrar_minimo(vetor))
