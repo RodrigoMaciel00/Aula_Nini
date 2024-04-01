@@ -1,0 +1,15 @@
+# Exercício 8
+def mediana(vetor):
+    vetor_ordenado = sorted(vetor)
+    tamanho = len(vetor_ordenado)
+    if tamanho % 2 == 0:
+        meio = tamanho // 2
+        mediana = (vetor_ordenado[meio - 1] + vetor_ordenado[meio]) / 2
+    else:
+        meio = tamanho // 2
+        mediana = vetor_ordenado[meio]
+    return mediana
+
+# Exemplo de uso:
+vetor = [1, 2, 3, 4, 5]
+print("Mediana do vetor:", mediana(vetor))
