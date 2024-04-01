@@ -1,0 +1,4 @@
+# Exercício 8
+lista_numeros = [10, 20, 30, 40, 50]
+numeros_impares = [numero for numero in lista_numeros if numero % 2 != 0]
+print("Números ímpares na lista:", numeros_impares)
