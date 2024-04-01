@@ -1,0 +1,4 @@
+# Exercício 1
+lista_numeros = [10, 20, 30, 40, 50]
+maior_numero = max(lista_numeros)
+print("O maior número da lista é:", maior_numero)
