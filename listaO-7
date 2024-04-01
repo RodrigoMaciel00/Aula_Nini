@@ -1,0 +1,11 @@
+# Exercício 7
+def terceiro_maior(vetor):
+    vetor_unico = sorted(set(vetor), reverse=True)
+    if len(vetor_unico) >= 3:
+        return vetor_unico[2]
+    else:
+        return "Não há terceiro maior número."
+
+# Exemplo de uso:
+vetor = [5, 2, 8, 2, 3, 4, 6]
+print("Terceiro maior número:", terceiro_maior(vetor))
