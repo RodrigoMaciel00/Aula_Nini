@@ -1,0 +1,4 @@
+# Exercício 2
+lista_nomes = ["Maria", "João", "Ana", "Pedro", "Mariana"]
+total_nomes = len(lista_nomes)
+print("O número total de nomes na lista é:", total_nomes)
