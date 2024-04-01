@@ -1,0 +1,11 @@
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+    
+    def falar(self):
+        print(f"{self.nome} está falando.")
+
+# Exemplo de uso:
+pessoa = Pessoa("Maria", 30)
+pessoa.falar()
