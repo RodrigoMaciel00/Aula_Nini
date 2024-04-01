@@ -1,0 +1,11 @@
+# Exercício 4
+def segundo_menor(vetor):
+    vetor_unico = sorted(set(vetor))
+    if len(vetor_unico) >= 2:
+        return vetor_unico[1]
+    else:
+        return "Não há segundo menor número."
+
+# Exemplo de uso:
+vetor = [5, 2, 8, 2, 3, 4, 6]
+print("Segundo menor número:", segundo_menor(vetor))
